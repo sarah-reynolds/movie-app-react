@@ -16,7 +16,7 @@ class App extends Component {
 
     handleSearch(searchTextFromChild){
         this.setState({
-            searchtText: searchTextFromChild
+            searchText: searchTextFromChild
         });
         this.props.router.push('/search/'+encodeURI(searchTextFromChild));
     }

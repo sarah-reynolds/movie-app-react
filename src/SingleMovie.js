@@ -30,7 +30,7 @@ class SingleMovie extends Component{
 		return(
 			<div className='col-sm-8'>
 				<a href={this.state.currentMovieData.homepage} target="_blank" >
-					<img src={posterPath} />
+					<img role="presentation" src={posterPath} />
 				</a>
 			</div>
 		)

@@ -11,7 +11,7 @@ class BootstrapNavBar extends Component {
 	handleSearchSubmit(event){
 		event.preventDefault();
 		var inputBox = event.target[0].value;
-		console.log(inputBox)
+		// console.log(inputBox)
 		// this.props.router.push('/search/'+inputBox)
 		this.props.functionFromParent(inputBox)
 	}
